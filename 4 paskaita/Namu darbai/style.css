@@ -1,0 +1,41 @@
+/*Tag selectors*/
+*{
+  margin: 0;
+  padding: 3px;
+  box-sizing: border-box;
+  }
+
+body {
+  background: #FFA0A0;
+  color: #262A53;
+  font-weight: bold;
+  border: 10px solid #FFE3E3;
+  margin: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #628395;
+    color: #FFE3E3;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin: 20px auto;
+    box-shadow: 0 0 10px cyan;
+}
+
+/*Class selectors*/
+.pavadinimas{
+    text-align: center;
+    border: 3px solid #FFE3E3;
+    margin: 20px;
+}
