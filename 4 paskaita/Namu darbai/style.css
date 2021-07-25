@@ -1,27 +1,21 @@
 /*Tag selectors*/
-*{
-  margin: 0;
-  padding: 3px;
-  box-sizing: border-box;
-  }
-
-body {
-  background: #FFA0A0;
-  color: #262A53;
-  font-weight: bold;
-  border: 10px solid #FFE3E3;
-  margin: 20px;
+* {
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box;
 }
 
-input {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border-radius: 8px;
-    background-color: #628395;
-    color: #FFE3E3;
+body {
+    background: #FFA0A0;
+    color: #262A53;
     font-weight: bold;
+    border: 10px solid #FFE3E3;
+    margin: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+    color: #262A53;
 }
 
 img {
@@ -34,8 +28,20 @@ img {
 }
 
 /*Class selectors*/
-.pavadinimas{
+.pavadinimas {
     text-align: center;
     border: 3px solid #FFE3E3;
     margin: 20px;
+}
+
+.text {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #628395;
+    color: #FFE3E3;
+    font-weight: bold;
+    font-family: 'Zen Loop', cursive;
 }
