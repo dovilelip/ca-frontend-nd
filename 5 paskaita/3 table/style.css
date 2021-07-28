@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+table, th, td {
+  font-family: 'Helvetica', sans-serif;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 6px;
+}
+
+table {
+  line-height: normal;
+  text-align: left;
+  margin-bottom: 80px;
+  background: white;
+  color: black;
+}
+
+#orange,#blue,#green {
+  color: white;
+}
+
+#orange {
+  background: #ff9933;
+}
+
+#blue {
+  background: #4747d1;
+}
+
+#green {
+  background: rgb(51, 204, 51);
+}

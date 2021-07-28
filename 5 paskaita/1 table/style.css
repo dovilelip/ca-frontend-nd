@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+table {
+  font-family: 'arial';
+  line-height: normal;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+  padding: 30px;
+  weight: 60px;
+  width: 80%;
+}
+
+th {
+  background: #FFC947;
+  color: black;
+  text-align: center;
+}
+
+td {
+  background: #483D8B;
+  color: white;
+  border: 1px solid #FFC947;
+  text-align: left;
+}
+
+tr:hover:not(:first-of-type) {
+  background-color: #FF8A5C;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0 0 10px black;
+}
+
+#lastname {
+  background: rgb(235, 168, 58);
+  color: black;
+  font-weight: bold;
+}

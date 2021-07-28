@@ -1,0 +1,25 @@
+table {
+  min-width: 850px;
+  max-width: 850px;
+}
+
+table td span div {
+  margin: 5px 5px 5px 5px;
+  padding: 20px;
+  display: inline-block;
+  border: 4px solid rgb(44,214,77);
+  background-color: rgb(240,87,18);
+}
+
+table td span div:nth-child(odd) {
+  border: 4px solid rgb(240,87,18);
+  background-color: rgb(44,214,77);
+}
+
+table td span div div{
+  background-color: rgb(44,214,77);
+}
+
+table td span div:nth-child(odd) div {
+  background-color: rgb(240,87,18);
+}
