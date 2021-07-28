@@ -13,15 +13,15 @@ table {
 }
 
 th {
-  background: #7D156D;
+  background: rgb(134,0,111);
 }
 
 tr:nth-child(even){
-  background-color: #FD89DD;
+  background-color: rgb(243,126,207);
 }
 
 tr:nth-child(odd){
-  background-color: #AA5C9F;
+  background-color: rgb(175,85,147);
 }
 
 tr:hover:not(:first-of-type) {

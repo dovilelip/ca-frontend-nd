@@ -19,20 +19,20 @@ table {
   color: black;
 }
 
-#orange, 
+#orange,
 #blue,
 #green {
   color: white;
 }
 
 #orange {
-  background: #ff9933;
+  background: rgb(254,165,0);
 }
 
 #blue {
-  background: #4747d1;
+  background: rgb(79,79,255);
 }
 
 #green {
-  background: rgb(51, 204, 51);
+  background: rgb(22,192,59);
 }
