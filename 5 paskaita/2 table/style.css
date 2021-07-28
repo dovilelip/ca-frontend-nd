@@ -27,5 +27,4 @@ tr:nth-child(odd){
 tr:hover:not(:first-of-type) {
   background-color: rgb(204, 102, 153);
   color: black;
-  font-weight: bold;
   box-shadow: 0 0 10px grey;
