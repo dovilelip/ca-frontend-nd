@@ -1,0 +1,87 @@
+body {
+  background: #F0E5D8;
+}
+
+footer h1 {
+  margin: 10px;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+main {
+    height: 90vh;
+}
+
+.sun {
+  margin: 55px;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background: orange no-repeat;
+  box-shadow: 0 0 10px orange,
+              0 0 100px orange,
+              0 0 100px yellow,
+              inset 0 0 80px yellow;
+  text-align: left;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  animation: ksun 7s infinite;
+}
+
+.moon {
+  margin: 75px;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background: grey;
+  box-shadow: 0 0 10px grey,
+              0 0 100px grey,
+              0 0 100px #B2B1B9,
+              inset 0 0 80px #B2B1B9;
+  text-align: right;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  animation: kmoon 7s infinite;
+}
+
+@keyframes ksun {
+  0%   {top: 5px; background: #F7FD04;}
+  45%  {top: 100px; background: #F9B208;}
+  65%  {top: 150px; background: #F9B208;}
+  100% {top: 250px; background: #FC5404;}
+}
+
+@keyframes kmoon {
+  0%   {top: 250px; background: white;}
+  45%  {top: 150px; background: #E6DDC6;}
+  65%  {top: 100px; background: #C2B8A3;}
+  100% {top: 5px; background: grey;}
+}
+
+.fa-home {
+	color: #185ADB;
+	font-size: 150px;
+	transition: all 2s linear;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+body:hover {
+  background: black;
+}
+
+body:hover > footer h1 {
+    color: white;
+}
+
+.fa-home:hover {
+        background: black;
+        color: silver;
+        box-shadow: 0 0 10px #080957;
+}
