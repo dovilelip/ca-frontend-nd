@@ -1,0 +1,117 @@
+body {
+  background: rgb(33,33,32);
+  color: rgb(202,212,212);
+  font-family: verdana;
+}
+
+.mainMenu {
+  width: 97vw;
+  height: 97vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  text-decoration: none;
+}
+
+p:hover {
+  color: #F5A962;
+  cursor: pointer;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  border-width: 30px;
+  border-radius: 20%;
+  border-style: double;
+  transform: translateX(0);
+}
+
+
+.p1:before {
+  font-family: FontAwesome;
+  content: none;
+  display: inline-block;
+  padding-right: 5px;
+  vertical-align: middle;
+}
+
+.p1:hover::before {
+  content: "\f015";
+  font-size: 20px;
+  display: inline-block;
+}
+
+.p2::after {
+  margin: 40px;
+  padding: 30px;
+  content: "Osama – nuolatos tobulėjanti, ambicingų tikslų siekianti, veržli, prekybos paslaugų įmonė, kuri savo kokybišku darbu partneriams padeda pasiekti jų tikslus.";
+  color: #F5A962;
+  font-family: sans-serif;
+  font-weight: normal;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7%;
+  border-left: 9px;
+  position: absolute;
+  opacity: 0;
+}
+
+.p2:hover::after {
+  opacity: 1;
+  transform: translateX(-10%) translateY(10%);
+  transition: 0.2s;
+  transition-delay: 0.1s;
+  float:inherit;
+}
+
+.p3::before {
+  content: "";
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.p3:hover::before {
+  font-family: FontAwesome;
+  content: "\f0e0" "info@osama.lt";
+  margin: 55px;
+  padding-top: 10px;
+  position:fixed;
+  background: black;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 7%;
+  border-left: : 9px;
+  height: 26px;
+  width: 220px;
+  transition: 0.5s ease;
+  transform: translateX(-50%) translateY(50%);
+  opacity: 1;
+}
+
+.p4::after {
+  content: "";
+  position: absolute;
+  font-weight: bold;
+  font-size: 10px;
+  background: #F5A962;
+  color: black;
+  height: 70px;
+  width: 200px;
+  text-align: center;
+  opacity: 0;
+}
+
+.p4:hover::after {
+  padding-top: 40px;
+  content: "Atsiprašome. Informacija pildoma";
+  transform: translateX(-25%) rotateZ(360deg) scale(1.5);
+  transition: 0.5s ease;
+  opacity: 1;
+  letter-spacing: 1px;
+  margin: -15px 0 0 -15px;
+  left: 10%;
+}
