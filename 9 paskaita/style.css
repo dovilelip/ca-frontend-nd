@@ -90,7 +90,7 @@ footer.article-info-small {
   }
 }
 
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 880px) and (min-width: 320px) {
   main.columns {
     display: flex;
     flex-direction: column;
