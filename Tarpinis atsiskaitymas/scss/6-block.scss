@@ -1,0 +1,38 @@
+div {
+  &.bottomsignup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../../app/img/bg-masthead.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  &.bottomup {
+    display: flex;
+    justify-content: center;
+  }
+
+  &.bottombutton {
+    background-color: rgb(0,123,255);
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+}
+
+h2 {
+  &.footer {
+   color: white;
+  }
+}
+
+input {
+  width: 350px;
+}

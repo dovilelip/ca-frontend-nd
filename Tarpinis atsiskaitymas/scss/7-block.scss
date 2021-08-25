@@ -1,0 +1,42 @@
+div {
+  &.rights {
+    $blueColor: rgb(0,123,255);
+
+    nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: nowrap;
+      color: $blueColor;
+    }
+
+    .social {
+      font-size: 30px;
+      color: $blueColor;
+
+      i {
+        margin: 0 5px;
+      }
+    }
+
+    .meniu {
+      a {
+        color: $blueColor;
+      }
+    }
+  }
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+li {
+  margin-left: 10px;
+  display: inline;
+
+  a {
+    text-decoration: none;
+  }
+}

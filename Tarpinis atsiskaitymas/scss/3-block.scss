@@ -1,0 +1,26 @@
+div {
+  &.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+i {
+ &.fa-desktop, &.fa-layer-group, &.fa-check-circle {
+   color: rgb(0,123,255);
+   font-size: 60px;
+ }
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  color: rgb(158,158,158);
+}

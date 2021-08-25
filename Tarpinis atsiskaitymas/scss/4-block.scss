@@ -1,0 +1,53 @@
+div {
+  &.showcase {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-evenly;
+      align-content: space-around;
+
+      .box {
+        width: 45%;
+      }
+
+      img {
+        $bg-size: cover;
+        width: 45%;
+        height: 500px;
+        background-position-x: center;
+        background-position-y: center;
+
+        &#id1 {
+          background-image: url("../../app/img/bg-showcase-1.jpg");
+          background-size: $bg-size;
+        }
+
+        &#id2 {
+          background-image: url("../../app/img/bg-showcase-2.jpg");
+          background-size: $bg-size;
+        }
+
+        &#id3 {
+          background-image: url("../../app/img/bg-showcase-3.jpg");
+          background-size: $bg-size;
+        }
+      }
+
+      &:nth-child(odd) img {
+        order: -1;
+      }
+    }
+  }
+}
+
+p {
+  color: rgb(158,158,158);
+}
