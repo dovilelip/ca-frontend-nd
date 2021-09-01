@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+    <meta charset="utf-8">
+    <link href="append table.css" rel="stylesheet">
+
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
+    <title>Append table</title>
+  </head>
+  <body>
+  	<h1>Append table</h1>
+  	<div class="input">
+  	 <input name="fname" id="fname" type="text" placeholder="vardas"></input>
+  	 <input name="lname" id="lname" type="text" placeholder="pavardė"></input>
+  	 <input name="age" id="age" type="text" placeholder="amžius"></input>
+    </div>
+    <div class="button">
+  	 <button id="add">Pridėti</button>
+     <button id="remove-1">Ištrinti pirmą</button>
+     <button id="remove-2">Ištrinti paskutinį</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+	      <th>VARDAS</th>
+	      <th id="lastname">PAVARDĖ</th>
+	      <th>AMŽIUS</th>
+	    </tr>
+      </thead>
+      <tbody id="table">
+      <tr>
+        <td>Jonas</td>
+        <td>Rimkus</td>
+        <td>54</td>
+      </tr>
+      <tr>
+        <td>Vestina</td>
+        <td>Petronytė</td>
+        <td>31</td>
+      </tr>
+      <tr>
+        <td>Marius</td>
+        <td>Dulinskas</td>
+        <td>23</td>
+      </tr>
+    </tbody>
+   </table>
+   <script src="append table.js"></script>
+  </body>
+</html>
