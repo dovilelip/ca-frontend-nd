@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+}
+
+input, button {
+  margin: 0 10px;
+  padding: 5px;
+  width: 290px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  font-family: 'arial';
+  line-height: normal;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+  padding: 30px;
+  width: 75%;
+}
+
+th {
+  background: rgb(254,193,7);
+  color: black;
+  text-align: center;
+}
+
+td {
+  background: rgb(56,44,110);
+  color: white;
+  border: 1px solid #FFC947;
+  text-align: left;
+}
+
+#lastname {
+  background: rgb(229, 174, 48);
+  color: black;
+  font-weight: bold;
+}
