@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+}
+
+body {
+  font-family: "Montserrat";
+}
+/*
+div.main-container {
+  display: flex;
+}
+
+div.navigate {
+  background: black;
+  width: 100vh;
+}
+
+div.main-field {
+  background-image: url(https://public-v2links.adobecc.com/71297cf3-7ddc-40af-70c4-ce8fda78a719/component?params=component_id%3A1d0e71a5-c99e-4efd-b540-f75e6b91aa1b&params=version%3A0&token=1631804054_da39a3ee_25dad6fb60fb2c3598ff6140d2590bfe7784e769&api_key=CometServer1);
+  background-size: cover;
+  width: 100vh;
+}
+
+div.features {
+  background-image: url(https://public-v2links.adobecc.com/71297cf3-7ddc-40af-70c4-ce8fda78a719/component?params=component_id%3A9acae50d-75e5-431e-bfc6-ff7738e64b76&params=version%3A0&token=1631804054_da39a3ee_25dad6fb60fb2c3598ff6140d2590bfe7784e769&api_key=CometServer1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vh;*/
+}
+
+div.about {
+  display: flex;
+}
+
+
+div.about-top {
+  background-color: #1C1C1C;
+  height: 50vh;
+}
+
+div.about-line {
+  align-items: right;
+  width: 20vh;
+  border: 2px solid #E27866;
+}
+
+
+div.about-bottom {
+  background-color: #FFFFFF;
+  height: 50vh;
+}
+
+
+
+
+
+/*pricing dalis*/
+
+
+div.pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #6696E2;
+  height: 100vh;
+  color: #FFFFFF;
+}
+
+div.pricing-line {
+  width: 20%;
+  border: 2px solid #41D395;
+}
+
+div.pricing-container{
+  display: flex;
+  flex-direction: row;
+}
+
+div.pricing-plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center;
+  width: 260px;
+  background-color: black;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 7px;
+}
+
+p.plan-name {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+p.price {
+  color: #FFFFFF;
+  font-size: 50px;
+}
+
+p.payment {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+
+ul {
+  display: block;
+   list-style: none;
+   background-color: #FFFFFF;
+   border-top: 3px solid #41D395;
+   margin-top: 10px;
+   width: 100%;
+   border-box
+ }
+
+li {
+  text-align: center;
+  color: #86878B;
+  font-size: 12px;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*reviews dalis*/
+
+div.reviews {
+  display: flex;
+  background-color: white;
+  height: 70vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+div.reviews-line {
+  width: 20%;
+  border: 2px solid #6696E2;
+}
+
+div.reviews-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+div.reviews-photo {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  background: url(https://public-v2links.adobecc.com/71297cf3-7ddc-40af-70c4-ce8fda78a719/component?params=component_id%3Adbafff18-1585-4608-86d1-e5bbe98b3784&params=version%3A0&token=1631804054_da39a3ee_25dad6fb60fb2c3598ff6140d2590bfe7784e769&api_key=CometServer1);
+  background-size: cover;
+  border-radius: 100px;
+}
+
+.reviews-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*transition: transform 0.3s;*/
+}
+
+/*.reviews-message:hover {
+  transform: translateX(30px);
+}*/
+
+.text {
+  position: relative;
+  text-align: justify;
+  width: 30vh;
+  min-height: 50px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #6696E2;
+  border-radius: 15px;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: left;
+}
+
+.text::after {
+  content: "";
+  position: absolute;
+  bottom: -7%;
+  left: 7%;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top:30px solid #6696E2;
+
+}
+
+.message:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.message:nth-of-type(even) .photo {
+  background-position: 50% 35%;
+}
+
+
+
+
+
+/*ContACT DALIS*/
+div.contact {
+  background-color: #E27866;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+div.contact-line {
+  width: 99%;
+  border: 1px solid #FFFFFF;
+}
+
+div.contact-form {
+  display: flex;
+  display: inline-block;
+  border-radius: 7px;
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+  width: 45vh;
+  padding: 30px;
+}
+
+div.formD {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #00000029;
+  margin-top: 15px;
+  width: 100%;
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+
+div.contact-radio {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+div.radioC {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  color: black;
+}
+
+input[type="radio"] {
+  visibility: hidden;
+}
+
+label {
+  opacity: 0.5;
+}
+
+input[type="radio"]:checked + label {
+  opacity: 1;
+}
+
+.radio {
+  display: inline-block;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #41D395;
+  border-radius: 50%;
+}
+
+.radio:before {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: 4px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.3s;
+}
+
+input[type="radio"]:checked + label .radio:before {
+  background: #41D395;
+  align-items: center;
+  transform: scale(1);
+}
+
+div.send-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button.sendC {
+  /*margin: 10px;
+  background-image: url(https://public-v2links.adobecc.com/71297cf3-7ddc-40af-70c4-ce8fda78a719/component?params=component_id%3A0a4ea19b-f92d-4d6b-89bd-397c6365d524&params=version%3A0&token=1631804054_da39a3ee_25dad6fb60fb2c3598ff6140d2590bfe7784e769&api_key=CometServer1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  border: none;
+  font: #FFFFFF;
+  width: 30vh;
+  height: 7vh;*/
+
+
+  border-radius: 4px;
+  background-color: #41D395;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 0 20px;
+  width: 30vh;
+  height: 7vh;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+div.footer{
+  background-color: black;
+  height: 15vh;
+}
+
+div.social-contact {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.nav-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div.socialC {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 10px;
+  padding: 20px;
+}
+
+img.icon {
+  margin: 0 20px;
+}
+
+.sc {
+  display: flex;
+  color: #FFFFFF;
+  align-items: right;
+  text-align: right;
+  font-size: 14px;
+}
